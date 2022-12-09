@@ -1,0 +1,60 @@
+.main-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    /* border: solid black 1px;
+    border-radius: 5px;
+    width: 300px;    */
+}
+.second-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 300px;
+}
+.image-container{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: black;
+    width: 100%;
+}
+.profile-image{
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+}
+.profile-name{
+    font-weight: bold;
+    height: 20px;
+}
+.bio{
+    font-weight: bold;
+}
+.followersinfo{
+    border: 1px solid black;
+    margin-bottom: 8px;
+    height: 40px;
+    width: 90%;
+    box-shadow: 1px 3px gray;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-content: column;
+    justify-content: space-around;
+    border-radius: 6px;
+}
+/* .followers{
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+} */
